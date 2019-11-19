@@ -8,7 +8,7 @@ La idea fue presentada como una forma de estimar trayectorias para un grupo de p
 
 Una trayectoria puede ser lineal o una curva en una forma exponencial o combinaciones mediante polinomios, la complejidad de la curva la da el usuario y ese es precisamente uno de los problemas de este método, ya que un polinomio de grado 3 o superior puede ajustar cualquier cosa y las trayectorias pueden no reflejar la realidad.
 
-![](https://raw.githubusercontent.com/olitroski/AplicacionesVarias/master/B-Spline%20Trajectories/img/01.traj.ie.png)
+![](C:\Users\Oliver\Desktop\B-Spline Trajectories\img\01.traj.ie.png)
 
 Entonces la idea es pedirle al sistema:
 
@@ -50,7 +50,7 @@ Vamos a ajustar 2 trayectorias cúbicas a estos datos.
 
 Los datos deben estar en un formato a lo ancho para Stata y longitudinal para R, como en Stata es más simple minimizaremos el tratamiento de datos en R. Los datos del archivo `OPPOSITN.xlsx` lucen de la siguiente forma.
 
-![](https://raw.githubusercontent.com/olitroski/AplicacionesVarias/master/B-Spline%20Trajectories/img/02.opo.png)
+![](C:\Users\Oliver\Desktop\B-Spline Trajectories\img\02.opo.png)
 
 El tiempo es **T** y la variable de oposición es **V**. 
 
@@ -92,11 +92,11 @@ save "OPPOSITN_long.dta", replace
 
 Los datos lucen así recién importados
 
-![](https://raw.githubusercontent.com/olitroski/AplicacionesVarias/master/B-Spline%20Trajectories/img/03.statawide.png)
+![](C:\Users\Oliver\Desktop\B-Spline Trajectories\img\03.statawide.png)
 
 Con el reshape
 
-![](https://raw.githubusercontent.com/olitroski/AplicacionesVarias/master/B-Spline%20Trajectories/img/04.statalong.png)
+![](C:\Users\Oliver\Desktop\B-Spline Trajectories\img\04.statalong.png)
 
 Se guarda todo en el archivo **"OPPOSITN_long.dta"**
 
@@ -199,7 +199,7 @@ reshape wide data time sp_uno sp_dos sp_tre sp_cua, i(id) j(epoch)
 
 El resumen del reshape es:
 
-![](https://raw.githubusercontent.com/olitroski/AplicacionesVarias/master/B-Spline%20Trajectories/img/05_reshape.png)
+![](C:\Users\Oliver\Desktop\B-Spline Trajectories\img\05_reshape.png)
 
 Como vemos pasamos de 8 variables a 43, son muchas variables... 7 de data, 7 de time y 7x4 del spline basis. Ahora vamos a calcular trayectorias, como vamos a necesitar los spline basis del tiempo usaremos  el comodin ***** en lugar de escribir todas las variables.
 
@@ -267,11 +267,11 @@ El resto son la ecuación de cada trayectoria y los porcentajes de asignación d
 trajplot
 ```
 
-![](https://raw.githubusercontent.com/olitroski/AplicacionesVarias/master/B-Spline%20Trajectories/img/06_traj2.png)
+![](C:\Users\Oliver\Desktop\B-Spline Trajectories\img\06_traj2.png)
 
 Y además en los datos se agregan tres variables, una por cada trayectoria indicando la probabilidad de pertenencia de cada sujeto.
 
-![](https://raw.githubusercontent.com/olitroski/AplicacionesVarias/master/B-Spline%20Trajectories/img/07_trajp.png)
+![](C:\Users\Oliver\Desktop\B-Spline Trajectories\img\07_trajp.png)
 
 El sistema por defecto asigna a cada sujeto según la mayor probabilidad. Pero si seguimos el ejemplo de Francis (2007) podemos determinar que el mínimo para formar parte de un grupo sea 70%.
 
