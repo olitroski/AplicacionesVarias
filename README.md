@@ -14,3 +14,9 @@ La idea es:
 
 
 
+## Go no GO
+
+Este Script procesa la prueba go-no-go con el paradigma del laboratorio. De momento procesa el de 15 años con 40 trials de prueba, pero cambiarlo se puede adaptar cualquiera. El de 21 años tenía 50 y 500 trials.
+
+En la carpeta están los detalles
+
