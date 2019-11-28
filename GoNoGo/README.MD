@@ -1,6 +1,6 @@
 # Como usar el super script para go no go
 
-Ya escribiré que hace que... de momento cómo usarlo.
+Ya escribiré qué hace cada función ... de momento cómo usarlo.
 
 ## Librerías
 
