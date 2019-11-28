@@ -32,7 +32,7 @@ Lo primero será cargar el script desde internet. Copiar y pegar este código en
 
 ```
 library(devtools)
-source(https://raw.githubusercontent.com/olitroski/AplicacionesVarias/master/GoNoGo/script_button_events.R)
+source("https://raw.githubusercontent.com/olitroski/AplicacionesVarias/master/GoNoGo/script_button_events.R")
 ```
 
 Luego ejecutar el script con la función **procesarGNG** 
