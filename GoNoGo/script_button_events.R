@@ -254,7 +254,7 @@ idname <- function(file){
 # Test
 # erpcsv <- files[1]
 # idname(erpcsv)
-
+# stop()
 
 ## ---------------------------------------------------------------------------- ## 
 ## ----- Crear bases de datos para analisis ------------------------------------- ##
@@ -286,9 +286,13 @@ procesarGNG <- function(){
         cross <- cbind(nombre, crossval(tidy))
         
         # Combinar
-        tidyfile <- rbind(tidyfile, tidy)
         statsfile <- rbind(statsfile, stat)
         crossfile <- rbind(crossfile, cross)
+        
+        # POnerle el nombre
+        tidy$file <- nombre[1,1]
+        tidyfile <- rbind(tidyfile, tidy)
+        
     }
 
     # Guardar
@@ -297,8 +301,8 @@ procesarGNG <- function(){
     write.xlsx(tidyfile,  "tidyfile.xlsx")
 
     # Return
-    resultado <- list(stat = statfile, cross = crossfile)
-    return(resultado)
+    resultado <<- list(stat = statsfile, cross = crossfile, dfs = tidyfile)
+    # return(resultado)
 }
 
 
