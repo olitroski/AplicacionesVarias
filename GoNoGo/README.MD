@@ -53,3 +53,12 @@ Se van a crear 3 archivos de Excel en la carpeta.
 
 
 
+## Notas
+
+**Modificación 03.12.2019**
+Se agrega código para lidiar con los repetidos, se conserva el primero se borran los siguientes Trials
+
+
+
+[^]: By. Oliver Rojas  2019
+
