@@ -1,5 +1,6 @@
-## Script para crear base de datos con los trials (1-500) Go-no-Go a partir del CSV
+## Script para crear base de datos con los trials Go-no-Go a partir del CSV
 ## del <erp> file 
+# 03.12.2019: Se agrega lo de los repetidos
 rm(list=ls()); library(openxlsx); library(dplyr)
 
 ## --- Set working directory ---------------------------------------------------- ##
@@ -44,7 +45,28 @@ read.csvfile <- function(erpcsv){
 tidy.rawdata <- function(datalist){
 
 	# Revisar si hay negativos, de haber corregir con NA
+	# Si hay repetidos quedarse con el primero
 	datos <- datalist[[1]]
+    datos$repetido <- 0
+	for (i in 2:nrow(datos)){
+        if (datos$Trial[i] == datos$Trial[i-1]){
+            datos$repetido[i] <- 1
+        } else {
+            datos$repetido[i] <- 0
+        }
+	}
+	
+	# Avisar si hay repetidos... 
+	repetidos <- datos %>% filter(repetido == 1)
+	if (nrow(repetidos) > 0){
+        cat("Hay trials repetidos, se conserva el primero\nBorrados:\n")
+        print(repetidos)
+	}
+	
+	# Descartar repetidos
+	datos <- filter(datos, repetido == 0) %>% select(-repetido)
+		
+	# Anotar los malos
 	malos <- filter(datos, Pressed < 0 | Released < 0 | ID == 3)
 		
 	# Corregir respuestas negativas por doble clic
@@ -305,18 +327,4 @@ procesarGNG <- function(){
     # return(resultado)
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# procesarGNG()
