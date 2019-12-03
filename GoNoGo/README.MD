@@ -60,5 +60,6 @@ Se agrega código para lidiar con los repetidos, se conserva el primero se borra
 
 
 
-[^]: By. Oliver Rojas  2019
+
+>                                                       Oliver Rojas,  2019
 
