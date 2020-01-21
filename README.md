@@ -30,3 +30,6 @@ Se actualiza para enviar una agenda diaria. Funcionando en un VPS, más detalles
 
 
 
+## RandomBiduGuibu
+
+Aleatoriza 4 grupos (bloques) de 25 trials, compuesto de 2 categorías de 50 las cuales tienen la restricción de no tener más de 3 seguidos de un tipo.
