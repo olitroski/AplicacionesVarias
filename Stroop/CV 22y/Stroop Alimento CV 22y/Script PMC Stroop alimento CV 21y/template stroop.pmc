@@ -1,0 +1,49 @@
+﻿[PMC Code v5.0.5]|F3||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro1
+Groups=Iniciar:1,Abre y reset ERP:46
+1|[Pause]||1|200|Sleep|||||
+2|Run|D:\OneDrive\INTA\Varios\ERP\ERPW32.exe|1|0|Run|||||
+3|[Pause]||1|200|Sleep|||||
+4|WinMaximize||1|333|WinMaximize||ErpW32|||
+5|WinActivate||1|333|WinActivate||ErpW32|||
+6|Alt|{Alt Down}|1|0|Send|||||
+7|f|{f}|1|0|Send|||||
+8|Alt|{Alt Up}|1|0|Send|||||
+9|Down|{Down}|8|100|Send|||||
+10|Enter|{Enter}|1|0|Send|||||
+11|[Pause]||1|200|Sleep|||||
+12|LControl Down|{LControl Down}|1|0|Send|||||
+13|o|{o}|1|0|Send|||||
+14|LControl Up|{LControl Up}|1|0|Send|||||
+15|[Pause]||1|200|Sleep|||||
+16|Alt|{Alt Down}|1|0|Send|||||
+17|o|{o}|1|0|Send|||||
+18|Alt|{Alt Up}|1|0|Send|||||
+19|[Pause]||1|200|Sleep|||||
+20|[Text]|C:\Users\Oliver\Desktop\NIH 21y\PC miriam\Stroop Alimento\240_1.ERP|1|0|SendRaw|||||
+21|Alt|{Alt Down}|1|0|Send|||||
+22|a|{a}|1|0|Send|||||
+23|Alt|{Alt Up}|1|0|Send|||||
+24|[Pause]||1|200|Sleep|||||
+25|Alt|{Alt Down}|1|0|Send|||||
+26|v|{v}|1|0|Send|||||
+27|Alt|{Alt Up}|1|0|Send|||||
+28|Enter|{Enter}|1|0|Send|||||
+29|[Pause]||1|200|Sleep|||||
+30|Alt|{Alt Down}|1|0|Send|||||
+31|s|{s}|1|0|Send|||||
+32|Alt|{Alt Up}|1|0|Send|||||
+33|[Pause]||1|200|Sleep|||||
+34|Alt|{Alt Down}|1|0|Send|||||
+35|o|{o}|1|0|Send|||||
+36|Alt|{Alt Up}|1|0|Send|||||
+37|[Text]|C:\Users\Oliver\Desktop\resultado\240_0.ERP.csv|1|100|SendRaw|||||
+38|Alt|{Alt Down}|1|0|Send|||||
+39|g|{g}|1|0|Send|||||
+40|Alt|{Alt Up}|1|0|Send|||||
+41|Enter|{Enter}|1|50|Send|||||
+42|Enter|{Enter}|1|50|Send|||||
+43|[Pause]||1|200|Sleep|||||
+44|Alt|{Alt Down}|1|0|Send|||||
+45|F4|{F4}|1|0|Send|||||
+46|Alt|{Alt Up}|1|0|Send|||||
+
