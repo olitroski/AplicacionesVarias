@@ -1,0 +1,1617 @@
+*** Header Start ***
+VersionPersist: 1
+LevelName: Session
+LevelName: Block
+LevelName: Trial
+LevelName: SubTrial
+LevelName: LogLevel5
+LevelName: LogLevel6
+LevelName: LogLevel7
+LevelName: LogLevel8
+LevelName: LogLevel9
+LevelName: LogLevel10
+Experiment: Stroop_Chile2015
+SessionDate: 05-04-2016
+SessionTime: 11:05:53
+Subject: 1777
+Session: 1
+RandomSeed: 725665867
+Group: 1
+Display.RefreshRate: 59.888
+*** Header End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 1
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 1
+	Word: amarillo
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 1
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 13
+	TextDisplay1.OnsetTime: 62075
+	TextDisplay1.DurationError: 0
+	TextDisplay1.RTTime: 0
+	TextDisplay1.ACC: 0
+	TextDisplay1.RT: 0
+	TextDisplay1.RESP: 
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 2
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 2
+	Word: rojo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 2
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 63896
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 64296
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 400
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 3
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 3
+	Word: rojo
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 3
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 65332
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 65785
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 453
+	TextDisplay1.RESP: v
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 4
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 4
+	Word: azul
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 4
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 66818
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 67358
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 540
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 5
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 5
+	Word: amarillo
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 5
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 68387
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 68839
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 452
+	TextDisplay1.RESP: v
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 6
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 6
+	Word: azul
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 6
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 69873
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 70399
+	TextDisplay1.ACC: 0
+	TextDisplay1.RT: 526
+	TextDisplay1.RESP: v
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 7
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 7
+	Word: rojo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 7
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 71426
+	TextDisplay1.DurationError: 0
+	TextDisplay1.RTTime: 0
+	TextDisplay1.ACC: 0
+	TextDisplay1.RT: 0
+	TextDisplay1.RESP: 
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 8
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 8
+	Word: azul
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 8
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 73246
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 74001
+	TextDisplay1.ACC: 0
+	TextDisplay1.RT: 755
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 9
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 9
+	Word: rojo
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 9
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 75033
+	TextDisplay1.DurationError: 0
+	TextDisplay1.RTTime: 0
+	TextDisplay1.ACC: 0
+	TextDisplay1.RT: 0
+	TextDisplay1.RESP: 
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 10
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 10
+	Word: rojo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 10
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 76853
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 77408
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 555
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 11
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 11
+	Word: azul
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 11
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 78439
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 79022
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 583
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 12
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 12
+	Word: amarillo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 12
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 80042
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 80638
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 596
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 13
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 13
+	Word: amarillo
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 13
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 81662
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 82228
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 566
+	TextDisplay1.RESP: v
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 14
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 14
+	Word: rojo
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 14
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 17
+	TextDisplay1.OnsetTime: 83248
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 83926
+	TextDisplay1.ACC: 0
+	TextDisplay1.RT: 678
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 15
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 15
+	Word: rojo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 15
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 84951
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 85638
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 687
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 16
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 16
+	Word: azul
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 16
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 86671
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 87154
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 483
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 17
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 17
+	Word: rojo
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 17
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 17
+	TextDisplay1.OnsetTime: 88174
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 88717
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 543
+	TextDisplay1.RESP: v
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 18
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 18
+	Word: rojo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 18
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 89744
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 90228
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 484
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 19
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 19
+	Word: amarillo
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 19
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 91263
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 91899
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 636
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 20
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 20
+	Word: amarillo
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 20
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 92933
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 93536
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 603
+	TextDisplay1.RESP: v
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 21
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 21
+	Word: amarillo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 21
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 94569
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 95029
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 460
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 22
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 22
+	Word: azul
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 22
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 96055
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 96717
+	TextDisplay1.ACC: 0
+	TextDisplay1.RT: 662
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 23
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 23
+	Word: azul
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 23
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 97742
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 98529
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 787
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 24
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 24
+	Word: amarillo
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 24
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 99562
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 100183
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 621
+	TextDisplay1.RESP: v
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 25
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 25
+	Word: azul
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 25
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 101215
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 101817
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 602
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 26
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 26
+	Word: rojo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 26
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 102851
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 103499
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 648
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 27
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 27
+	Word: amarillo
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 27
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 104521
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 105173
+	TextDisplay1.ACC: 0
+	TextDisplay1.RT: 652
+	TextDisplay1.RESP: v
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 28
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 28
+	Word: amarillo
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 28
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 106208
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 106854
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 646
+	TextDisplay1.RESP: v
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 29
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 29
+	Word: amarillo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 29
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 107878
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 108538
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 660
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 30
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 30
+	Word: azul
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 30
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 109564
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 110077
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 513
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 31
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 31
+	Word: rojo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 31
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 111100
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 111650
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 550
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 32
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 32
+	Word: azul
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 32
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 112670
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 113255
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 585
+	TextDisplay1.RESP: v
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 33
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 33
+	Word: azul
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 33
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 114289
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 115040
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 751
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 34
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 34
+	Word: rojo
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 34
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 116076
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 116598
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 522
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 35
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 35
+	Word: rojo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 35
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 117629
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 118071
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 442
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 36
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 36
+	Word: rojo
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 36
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 119098
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 119494
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 396
+	TextDisplay1.RESP: v
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 37
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 37
+	Word: azul
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 37
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 120518
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 120946
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 428
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 38
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 38
+	Word: amarillo
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 38
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 121970
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 122458
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 488
+	TextDisplay1.RESP: v
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 39
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 39
+	Word: rojo
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 39
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 123490
+	TextDisplay1.DurationError: 1
+	TextDisplay1.RTTime: 0
+	TextDisplay1.ACC: 0
+	TextDisplay1.RT: 0
+	TextDisplay1.RESP: 
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 40
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 40
+	Word: rojo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 40
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 125310
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 125800
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 490
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 41
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 41
+	Word: rojo
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 41
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 126830
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 127318
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 488
+	TextDisplay1.RESP: v
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 42
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 42
+	Word: azul
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 42
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 128349
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 128804
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 455
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 43
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 43
+	Word: azul
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 43
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 129835
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 130418
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 583
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 44
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 44
+	Word: rojo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 44
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 131438
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 131984
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 546
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 45
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 45
+	Word: amarillo
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 45
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 133008
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 133463
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 455
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 46
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 46
+	Word: amarillo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 46
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 134494
+	TextDisplay1.DurationError: 0
+	TextDisplay1.RTTime: 0
+	TextDisplay1.ACC: 0
+	TextDisplay1.RT: 0
+	TextDisplay1.RESP: 
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 47
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 47
+	Word: azul
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 47
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 136314
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 136916
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 602
+	TextDisplay1.RESP: v
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 48
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 48
+	Word: rojo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 48
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 137950
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 138491
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 541
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 49
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 49
+	Word: azul
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 49
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 139520
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 140010
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 490
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 50
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 50
+	Word: azul
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 50
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 141039
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 141591
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 552
+	TextDisplay1.RESP: v
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 51
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 51
+	Word: amarillo
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 51
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 142626
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 143142
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 516
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 52
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 52
+	Word: rojo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 52
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 144162
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 144603
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 441
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 53
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 53
+	Word: azul
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 53
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 145631
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 146108
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 477
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 54
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 54
+	Word: amarillo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 54
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 147134
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 147584
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 450
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 55
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 55
+	Word: amarillo
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 55
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 148620
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 148897
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 277
+	TextDisplay1.RESP: v
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 56
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 56
+	Word: rojo
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 56
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 149923
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 150533
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 610
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 57
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 57
+	Word: rojo
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 57
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 151559
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 151986
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 427
+	TextDisplay1.RESP: v
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 58
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 58
+	Word: azul
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 58
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 153012
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 153337
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 325
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 59
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 59
+	Word: amarillo
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 59
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 154364
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 154850
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 486
+	TextDisplay1.RESP: v
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 60
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 60
+	Word: azul
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 60
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 155884
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 156452
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 568
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 61
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 61
+	Word: rojo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 61
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 157487
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 157954
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 467
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 62
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 62
+	Word: rojo
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 62
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 158989
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 159662
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 673
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 63
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 63
+	Word: amarillo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 63
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 160693
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 161141
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 448
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 64
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 64
+	Word: azul
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 64
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 162162
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 162597
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 435
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 65
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 65
+	Word: rojo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 65
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 163631
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 164134
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 503
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 66
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 66
+	Word: azul
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 66
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 165168
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 165701
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 533
+	TextDisplay1.RESP: v
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 67
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 67
+	Word: azul
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 67
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 166721
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 167463
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 742
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 68
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 68
+	Word: amarillo
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 68
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 168490
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 168975
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 485
+	TextDisplay1.RESP: v
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 69
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 69
+	Word: rojo
+	InkColor: red
+	CorrectAns: c
+	RunExp.Cycle: 1
+	RunExp.Sample: 69
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 170010
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 170491
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 481
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: c
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 70
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 70
+	Word: amarillo
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 70
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 171513
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 171853
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 340
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 71
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 71
+	Word: rojo
+	InkColor: yellow
+	CorrectAns: v
+	RunExp.Cycle: 1
+	RunExp.Sample: 71
+	Running: RunExp
+	Congruency: incongruent
+	TextDisplay1.OnsetDelay: 19
+	TextDisplay1.OnsetTime: 172882
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 173381
+	TextDisplay1.ACC: 0
+	TextDisplay1.RT: 499
+	TextDisplay1.RESP: c
+	TextDisplay1.CRESP: v
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	RunExp: 72
+	Duration: 800
+	Procedure: NeutralProc
+	ColoredWords: 72
+	Word: azul
+	InkColor: blue
+	CorrectAns: b
+	RunExp.Cycle: 1
+	RunExp.Sample: 72
+	Running: RunExp
+	Congruency: congruent
+	TextDisplay1.OnsetDelay: 18
+	TextDisplay1.OnsetTime: 174401
+	TextDisplay1.DurationError: -999999
+	TextDisplay1.RTTime: 174999
+	TextDisplay1.ACC: 1
+	TextDisplay1.RT: 598
+	TextDisplay1.RESP: b
+	TextDisplay1.CRESP: b
+	*** LogFrame End ***
+Level: 1
+*** LogFrame Start ***
+Experiment: Stroop_Chile2015
+SessionDate: 05-04-2016
+SessionTime: 11:05:53
+Subject: 1777
+Session: 1
+RandomSeed: 725665867
+Group: 1
+Display.RefreshRate: 59.888
+Clock.Information: <?xml version="1.0"?>\n<Clock xmlns:dt="urn:schemas-microsoft-com:datatypes"><Description dt:dt="string">E-Prime Primary Realtime Clock</Description><StartTime><Timestamp dt:dt="int">0</Timestamp><DateUtc dt:dt="string">2016-05-04T15:05:53Z</DateUtc></StartTime><FrequencyChanges><FrequencyChange><Frequency dt:dt="r8">3579545</Frequency><Timestamp dt:dt="r8">17904814222</Timestamp><Current dt:dt="r8">0</Current><DateUtc dt:dt="string">2016-05-04T15:05:53Z</DateUtc></FrequencyChange></FrequencyChanges></Clock>\n
+*** LogFrame End ***
