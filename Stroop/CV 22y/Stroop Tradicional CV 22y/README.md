@@ -1,4 +1,4 @@
-# Stroop Reward CV 22y
+# Stroop Tradicional CV 22y
 
 Esta es para la versión en carpeta **Stroop-Tradicional**, el intento anterior si bien funciona combina cosas en Stata y varios script, acá se deja todo en uno.
 
