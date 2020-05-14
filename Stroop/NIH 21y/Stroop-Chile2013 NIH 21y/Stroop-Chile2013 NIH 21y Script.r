@@ -17,9 +17,9 @@ options(warn=1)
 
 
 # Test files
-maindir <- "D:/OneDrive/INTA/AplicacionesVarias/Stroop/NIH 21y/Stroop-Chile2013 NIH 21y"
-stroop.dir <- "C:/Users/olitr/Desktop/Stroop 20 años/Stroop-Chile2013 NIH 21y/Stroop-Chile2013 NIH 21y Sussanne"
-# stroop.dir <- "D:/OneDrive/INTA/AplicacionesVarias/Stroop/NIH 21y/Stroop-Chile2013 NIH 21y/testfiles"
+maindir    <- "D:/OneDrive/INTA/AplicacionesVarias/Stroop/NIH 21y/Stroop-Chile2013 NIH 21y"
+stroop.dir <- "D:/OneDrive/INTA/AplicacionesVarias/Stroop/NIH 21y/Stroop-Chile2013 NIH 21y/testfiles"
+# stroop.dir <- "C:/Users/olitr/Desktop/Stroop 20 años/Stroop-Chile2013 NIH 21y/Stroop-Chile2013 NIH 21y Sussanne"
 
 
 # Listado de archivos

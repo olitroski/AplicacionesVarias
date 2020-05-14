@@ -1,6 +1,6 @@
 # Stroop Reward NIH 21y
 
-Esta es para la versión en carpeta **Stroop-Chile2013**, el intento anterior si bien funciona combina cosas en Stata y varios script, acá se deja todo en uno.
+Esta es para la versión en carpeta **Stroop-Chile2013**, el intento anterior si bien funciona, combina cosas en Stata y varios script, acá se deja todo en uno.
 
 Los archivos tienen este patrón de nominación: `"RewardsStroop_1_041708_Chile2013-6295-1.txt"` 
 

@@ -155,7 +155,13 @@ Detectada esta secuencia se captura el RT diferencia.
 Incongruente - Congruente(2)
 ```
 
-Y se guardan todas las ocurrencias (los RT) en la base y en un vector. Si no hubieran ocurrencias porque no hay respuestas correctas, se dejan como `NA` y se hace un recuento de qué pasó, porque también se debe cumplir que el **CCI sea positivo**.
+O sea
+
+1. Se buscan en todos los trials la secuencia CCI y se anotan cuantos hay eso es `n.cci`
+2. Se esos CCI encontrados se van a usar los que tengan esos 3 trials **correctos** en la respuesta, `cci.ok`
+3. en esos OK se va a calcular el promedio RT
+
+Pudiera ser que no existan `n.cci.ok` porque no cumplen con que sean correctos los 3 trials. En ese caso se dejará en la base de datos final con un `NA` al igual que el `mean.cci`.
 
 Entonces se hace una mini data frame
 
