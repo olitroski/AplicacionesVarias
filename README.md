@@ -33,3 +33,15 @@ Se actualiza para enviar una agenda diaria. Funcionando en un VPS, más detalles
 ## RandomBiduGuibu
 
 Aleatoriza 4 grupos (bloques) de 25 trials, compuesto de 2 categorías de 50 las cuales tienen la restricción de no tener más de 3 seguidos de un tipo.
+
+
+
+## Estadísticas EPI actígrafos
+
+En la carpeta `Stats EPI - ARQ` quedan los script para correr las estadísticas basadas en archivos EPI y ARQ del `Actividorm` y que formarán parte de la app nueva de análisis de sueño.
+
+Los script numerados son cada uno una función a ejecutar.
+
+El script `test_changes.R` tiene la secuencia completa de cómo hacer los cálculos con base en los 2 archivos de ejemplos incluidos en la carpeta. Obvio cambiar el working directory. 
+
+La documentación está en la carpeta.
