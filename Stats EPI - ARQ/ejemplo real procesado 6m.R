@@ -14,11 +14,15 @@ mainfolder <- "D:/OneDrive/INTA/Cata/2020.06 sincro EPI"
 setwd(mainfolder)
 
 # Cargar los script
+setwd("D:/OneDrive/INTA/AplicacionesVarias/Stats EPI - ARQ")
 script <- dir()
 script <- script[grep("_function", script)]
-sapply(script, source)
-rm(script)
-
+# sapply(script, source)
+for (s in script){
+    source(s)
+}
+rm(script, s)
+# stop()
 
 # ---- Procesar un epi ---------------------------------------------------------------- #
 # Los archivos
@@ -29,6 +33,10 @@ arq <- function_read.arq("ARQ 6m L-D.csv")
 
 # Validar lo que cruce
 epi <- omerge(epi, arq, byvar = "key", keep = TRUE)
+
+stop()
+
+
 epi <- epi$match
 
 # Depurar 

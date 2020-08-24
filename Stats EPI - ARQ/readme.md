@@ -1,4 +1,4 @@
-<style type="text/css">@page {size: letter; margin-top: 0.75in; margin-bottom: 0.75in; margin-left : 0in; margin-right: 0in}</style>
+[TOC]
 
 # Estadísticas Episodios
 
@@ -86,7 +86,7 @@ Para solucionar esto el cálculo debe hacerse sumando 24 horas a la hora que pas
 
 La única variable que si o si puede tener este problema y tendrá una versión continua es la hora de inicio del período *Noche*, no obstante lo anterior, siempre se deben revisar las variables antes de trabajar.
 
-
+-----
 
 # Para trabajar con archivo antiguos
 
@@ -149,7 +149,9 @@ Luego se combinan con **merge** mediante la variable **key** que será creada al
 10013  Dia 01 2016-08-03 16:10:00      S       632      21         30.1       9       S003
 ```
 
+> 22.08.2020 Se sugiere error de procesado, era el ARQ. Es buena idea chequear que los registros calcen bien luego de procesar todo.
 
+------
 
 # Pre procesado 
 
@@ -179,6 +181,10 @@ A continuación el detalle de lo que hace esta función.
 ## Descartar el Dia 01
 
 Como este día de registro no es completo porque no inicia desde el mínimo posible no se utiliza y en esta parte del procesado se descarta. Tanto la app nueva como `Actividorm` descartan este período para el cálculo de estadísticas.
+
+> 22.08.2020 Se actualiza para que incluya el "Dia 01" `Función 04 valid events ~ linea 40`
+
+
 
 ## Periodos repetidos
 
@@ -259,7 +265,7 @@ Para asegurar el cálculo y aún cuando lo más probable es que la duración de 
 
 Se hizo esto porque algún registro traía un decimal. Pero el 99.9% de las veces viene un número entero.
 
-
+------
 
 # 1. Hora de Inicio
 
@@ -326,7 +332,7 @@ Según la configuración: La primera vigilia que ocurre después de las 06:00 qu
 >
 > Como la cantidad de sueño (para el ejemplo) MiniMitter depende de la duración del episodio puede ocurrir que si un sujeto estuvo despierto todo el día y de cuando en vez no se mueve y el algoritmo dice sueño y al sumar estos *epoch* habrá mucho sueño y si se supera este parámetro no habrá inicio de día. Pero estuvo despierto todo el día (según actograma) y se perdería en el recuento final y eso ocurre a veces con `Actividorm`.
 
-
+------
 
 # 2. Conteo de episodios
 
@@ -500,7 +506,7 @@ pW_M2v2		Porcentaje de períodos de Vigilia	Mitad 2, Version 2
 key			Para cruzar bases de datos (identifica id + periodo)
 ```
 
-
+------
 
 # 3. Duración de estados
 
@@ -609,7 +615,7 @@ M2Wp		Porcentaje Vigilia	Mitad 2
 key			Para cruzar bases de datos (identifica id + periodo)
 ```
 
-
+------
 
 # 4. Duración máxima
 
@@ -673,7 +679,7 @@ key			Para cruzar bases de datos (identifica id + periodo)
 
 > Queda pendiente incluir máximos por mitades asignando episodios según hora de inicio.
 
-
+------
 
 # 5. Latencias
 
@@ -768,7 +774,7 @@ key			Para cruzar bases de datos (identifica id + periodo)
 >
 > Por ejemplo: la variable **latency to second nap since end of first nap** sería la duración del 3er episodio cuando el período es día :smirk:
 
-
+------
 
 # 6. Día completo
 
@@ -845,7 +851,7 @@ durWmax_24	Duración del episodio de vigilia máxima
 
 Como es lógico esta sección no contiene la `key` para cruzar con otras bases de datos porque cada registro corresponde a estadísticas de 2 períodos.
 
-
+------
 
 # 7. Causa efecto
 
@@ -896,5 +902,5 @@ Tendremos como resultado las variables de la tabla `CausaEfecto` + 2 variables. 
 
 > Pero alguien tendrá que que programarlo.
 
-
+------
 

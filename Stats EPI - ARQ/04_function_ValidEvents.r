@@ -33,14 +33,15 @@ function_ValidEvents <- function(epi = NULL, drop = TRUE){
         
         # <<< 1. Dia 01 >>> WRONG porque el Dia 01 viene despues de la Noche 01 ---------
         # Se saca el periodo "Dia 01" porque no es un dia completo.
-        if (nrow(datos) == 0){
-            next()
-        } else {
-            datos <- filter(datos, periodo != "Dia 01")
-            id.drop <- bind_rows(id.drop, 
-                                 data.frame(id = id, drop = "Dia 01", stringsAsFactors = FALSE))
-        }
-
+        # --- 20.08.2020 --- Modificacion incluye Dia 01--
+        # if (nrow(datos) == 0){
+        #     next()
+        # } else {
+        #     datos <- filter(datos, periodo != "Dia 01")
+        #     id.drop <- bind_rows(id.drop, 
+        #                          data.frame(id = id, drop = "Dia 01", stringsAsFactors = FALSE))
+        # }
+        
         
         # <<< 2. Repetidos >>> se evaluan los repetidos segun hora y dia ----------------
         # Se ordena por la fechora, se crea una 2da var desplazada 1 fila pa abajo, por si hay repetido
