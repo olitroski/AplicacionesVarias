@@ -5,7 +5,7 @@ rm(list=ls()); library(openxlsx); library(dplyr)
 
 ## --- Set working directory ---------------------------------------------------- ##
 # --- Choose folder with csv files --- #
-# setwd("D:/OneDrive/INTA")
+# setwd("D:/OneDrive/INTA/AplicacionesVarias/GoNoGo/archivos_prueba")
 # # Seleccionar solo archivos que terminan en csv
 # files <- dir()
 # files <- files[grep("csv|CSV", files)]
@@ -71,7 +71,7 @@ tidy.rawdata <- function(datalist){
 		
 	# Corregir respuestas negativas por doble clic
 	if (nrow(malos) > 0) {
-		# Agregar variable a datos de los que están malso
+		# Agregar variable a datos de los que est?n malso
 		malos <- select(malos, Trial)
 		malos <- as.numeric(malos$Trial)
 		datos$malos <- ifelse(datos$Trial %in% malos, 1, NA)
@@ -118,7 +118,7 @@ tidy.rawdata <- function(datalist){
 	
 
 	# Agregar los trials que faltan No-GO
-	# quina <- c(1:500)    verion 21 años
+	# quina <- c(1:500)    verion 21 a?os
 	quina <- c(1:150)
 	b3num  <- quina[!(quina %in% datos$Trial)]
 	b3data <- data.frame(Trial = b3num, ID = 3, Pressed = NA, 
@@ -284,7 +284,7 @@ idname <- function(file){
 # Cargar el directorio
 procesarGNG <- function(){
     # Seleccionar el wd
-    basfolder <- choose.dir(caption = "Selecciona carpeta donde estén los CSV")
+    basfolder <- choose.dir(caption = "Selecciona carpeta donde est?n los CSV")
     setwd(basfolder)
 
     # Cargar los archivos archivo <- files[1]

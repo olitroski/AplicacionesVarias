@@ -19,11 +19,20 @@ check.epidata <- function(data = NULL){
 		cat("  10013 2016-08-03 16:10:00      S      21     30.1     Dia      01 16.167 Wed       16\n")
 		cat("---------------------------------------------------------------------------------------\n\n")	
 		
+		# Podrian haber 2 formatos
+		if (class(data[,1]) == "character"){
+		    Formato = c("character", "POSIXct POSIXt", "character", "numeric", 
+		                "numeric", "character","character", "numeric", "character", "numeric")
+		} else if (class(data[,1]) == "numeric") {
+		    Formato = c("numeric", "POSIXct POSIXt", "character", "numeric", 
+		                "numeric", "character","character", "numeric", "character", "numeric")
+		}
+		
 		formatok <- data.frame(
-		Variables = c("id", "fec.hora", "estado", "dur_min", "mean_act", "dia.noc", "seq.dia", "hora", 
-				    "dia", "hora.abs"),
-		Formato = c("numeric", "POSIXct POSIXt", "character", "numeric", 
-		            "numeric", "character","character", "numeric", "character", "numeric"))
+		    Variables = c("id", "fec.hora", "estado", "dur_min", "mean_act", "dia.noc", "seq.dia", "hora", 
+		                  "dia", "hora.abs"),
+		    Formato = Formato
+		)			
 		print(formatok)
 		
 	} else {
@@ -47,11 +56,14 @@ check.epidata <- function(data = NULL){
 			clase <- paste(clase, collapse = " ")
 			format <- c(format, clase)
 		}
-			
-		formatok <- c("numeric", "POSIXct POSIXt", "character", "numeric", "numeric", "character",
-			"character", "numeric", "character", "numeric")
-		
-		
+        	        
+		# Podrian haber 2 formatos
+		if (class(data[,1]) == "character"){
+		    formatok = c("character", "POSIXct POSIXt", "character", "numeric", "numeric", "character","character", "numeric", "character", "numeric")
+		} else if (class(data[,1]) == "numeric") {
+		    formatok = c("numeric",   "POSIXct POSIXt", "character", "numeric", "numeric", "character","character", "numeric", "character", "numeric")
+		}
+        
 		# Esto debia estar arriba, pero wee... aca tira el error cuando sobran variables
 		if (length(names(data) %in% checkvar) != length(checkvar)){
             sobra <- names(data)[!(names(data) %in% checkvar)]
