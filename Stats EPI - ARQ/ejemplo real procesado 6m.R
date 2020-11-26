@@ -33,10 +33,6 @@ arq <- function_read.arq("ARQ 6m L-D.csv")
 
 # Validar lo que cruce
 epi <- omerge(epi, arq, byvar = "key", keep = TRUE)
-
-stop()
-
-
 epi <- epi$match
 
 # Depurar 
@@ -51,6 +47,7 @@ epi <- filter(epi, edited == FALSE)
 
 # Terminar
 epi <- select(epi, -key, -hora.arq, -edited)
+stop()
 
 
 # ---- Pasar la funcion de eventos válidos -------------------------------------------- #
