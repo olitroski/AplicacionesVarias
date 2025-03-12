@@ -100,9 +100,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<link href="../site_libs/tabwid-1.1.3/tabwid.css" rel="stylesheet">
+<script src="../site_libs/kePrint-0.0.1/kePrint.js"></script>
 
-<script src="../site_libs/tabwid-1.1.3/tabwid.js"></script>
+<link href="../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 
 
 
@@ -204,7 +204,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Cargar las librerías</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(data.table)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(openssl)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(flextable) <span class="co"># para mostrar las tablas en html</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(kableExtra) <span class="co"># para mostrar las tablas en html</span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear la Key y el IV (generamos un error deliberadamente)</span></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>key <span class="ot">&lt;-</span> <span class="fu">charToRaw</span>(<span class="st">"olitroski"</span>)</span>
@@ -248,9 +248,34 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>))</span>
 <span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="co"># ver la tabla</span></span>
-<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a><span class="fu">regulartable</span>(dt)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a><span class="fu">kbl</span>(dt)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div class="tabwid"><style>.cl-bfc50a2a{}.cl-bfbdb37e{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-bfc0929c{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-bfc0a80e{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-bfc0a818{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-bfc0a819{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-bfc50a2a"><thead><tr style="overflow-wrap:break-word;"><th class="cl-bfc0a80e"><p class="cl-bfc0929c"><span class="cl-bfbdb37e">valores_encriptar</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-bfc0a818"><p class="cl-bfc0929c"><span class="cl-bfbdb37e">perro</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-bfc0a818"><p class="cl-bfc0929c"><span class="cl-bfbdb37e">gato</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-bfc0a818"><p class="cl-bfc0929c"><span class="cl-bfbdb37e">18745235</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-bfc0a818"><p class="cl-bfc0929c"><span class="cl-bfbdb37e">Otra clave</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-bfc0a819"><p class="cl-bfc0929c"><span class="cl-bfbdb37e">olitroski</span></p></td></tr></tbody></table></div>
+<table class="caption-top table table-sm table-striped small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">valores_encriptar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">perro</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">gato</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">18745235</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Otra clave</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">olitroski</td>
+</tr>
+</tbody>
+</table>
+
+
 </div>
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ---- 4. Función para cifrar</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>cifrar_aes <span class="ot">&lt;-</span> <span class="fu">Vectorize</span>(<span class="cf">function</span>(texto) {</span>
@@ -269,9 +294,46 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>dt[, descifrar <span class="sc">:</span><span class="er">=</span> <span class="fu">descifrar_aes</span>(cifrar)]</span>
 <span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Resultado</span></span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="fu">regulartable</span>(dt)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="fu">kbl</span>(dt)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div class="tabwid"><style>.cl-bfd56974{}.cl-bfcdd826{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-bfd08666{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-bfd09c64{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-bfd09c6e{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-bfd09c6f{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-bfd56974"><thead><tr style="overflow-wrap:break-word;"><th class="cl-bfd09c64"><p class="cl-bfd08666"><span class="cl-bfcdd826">valores_encriptar</span></p></th><th class="cl-bfd09c64"><p class="cl-bfd08666"><span class="cl-bfcdd826">cifrar</span></p></th><th class="cl-bfd09c64"><p class="cl-bfd08666"><span class="cl-bfcdd826">descifrar</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-bfd09c6e"><p class="cl-bfd08666"><span class="cl-bfcdd826">perro</span></p></td><td class="cl-bfd09c6e"><p class="cl-bfd08666"><span class="cl-bfcdd826">p68k/yM=</span></p></td><td class="cl-bfd09c6e"><p class="cl-bfd08666"><span class="cl-bfcdd826">perro</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-bfd09c6e"><p class="cl-bfd08666"><span class="cl-bfcdd826">gato</span></p></td><td class="cl-bfd09c6e"><p class="cl-bfd08666"><span class="cl-bfcdd826">sKsi4g==</span></p></td><td class="cl-bfd09c6e"><p class="cl-bfd08666"><span class="cl-bfcdd826">gato</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-bfd09c6e"><p class="cl-bfd08666"><span class="cl-bfcdd826">18745235</span></p></td><td class="cl-bfd09c6e"><p class="cl-bfd08666"><span class="cl-bfcdd826">5vJhuXlxuj0=</span></p></td><td class="cl-bfd09c6e"><p class="cl-bfd08666"><span class="cl-bfcdd826">18745235</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-bfd09c6e"><p class="cl-bfd08666"><span class="cl-bfcdd826">Otra clave</span></p></td><td class="cl-bfd09c6e"><p class="cl-bfd08666"><span class="cl-bfcdd826">mL4k7Gwg5Wke5Q==</span></p></td><td class="cl-bfd09c6e"><p class="cl-bfd08666"><span class="cl-bfcdd826">Otra clave</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-bfd09c6f"><p class="cl-bfd08666"><span class="cl-bfcdd826">olitroski</span></p></td><td class="cl-bfd09c6f"><p class="cl-bfd08666"><span class="cl-bfcdd826">uKY/+T4s+mMB</span></p></td><td class="cl-bfd09c6f"><p class="cl-bfd08666"><span class="cl-bfcdd826">olitroski</span></p></td></tr></tbody></table></div>
+<table class="caption-top table table-sm table-striped small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">valores_encriptar</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">cifrar</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">descifrar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">perro</td>
+<td style="text-align: left;">p68k/yM=</td>
+<td style="text-align: left;">perro</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">gato</td>
+<td style="text-align: left;">sKsi4g==</td>
+<td style="text-align: left;">gato</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">18745235</td>
+<td style="text-align: left;">5vJhuXlxuj0=</td>
+<td style="text-align: left;">18745235</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Otra clave</td>
+<td style="text-align: left;">mL4k7Gwg5Wke5Q==</td>
+<td style="text-align: left;">Otra clave</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">olitroski</td>
+<td style="text-align: left;">uKY/+T4s+mMB</td>
+<td style="text-align: left;">olitroski</td>
+</tr>
+</tbody>
+</table>
+
+
 </div>
 </div>
 

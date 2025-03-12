@@ -1,6 +1,7 @@
 ---
 execute:
   cache: false
+  freeze: false
 ---
 
 # Encriptar valores en R
@@ -36,7 +37,7 @@ Esto te permitirá cifrar y descifrar consistentemente.
 # Cargar las librerías
 library(data.table)
 library(openssl)
-library(flextable) # para mostrar las tablas en html
+library(kableExtra) # para mostrar las tablas en html
 
 # Crear la Key y el IV (generamos un error deliberadamente)
 key <- charToRaw("olitroski")
@@ -81,7 +82,7 @@ dt <- data.table('valores_encriptar' = c(
 ))
 
 # ver la tabla
-regulartable(dt)
+kbl(dt)
 
 # ---- 4. Función para cifrar
 cifrar_aes <- Vectorize(function(texto) {
@@ -100,7 +101,5 @@ dt[, cifrar := cifrar_aes(valores_encriptar)]
 dt[, descifrar := descifrar_aes(cifrar)]
 
 # Resultado
-regulartable(dt)
+kbl(dt)
 ```
-
-

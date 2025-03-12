@@ -1,6 +1,7 @@
 ---
 execute:
   cache: false
+  freeze: false
 ---
 
 # Aplicaciones varias
