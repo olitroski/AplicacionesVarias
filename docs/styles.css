@@ -1,0 +1,14 @@
+/* css styles */
+.sidebar-item-section .sidebar-item-text {
+    font-weight: bold !important; /* Negrita */
+    font-size: 1.3em; /* Aumenta un poco el tamaño */
+    color: #333; /* Color oscuro para mayor contraste */
+    padding-top: 10px; /* Espacio superior */
+    margin-bottom: 20px; /* Espacio inferior */
+    /*border-bottom: 2px solid #ccc;*/
+}
+    
+#quarto-margin-sidebar {
+    margin-top: 70px; /* Ajusta el valor según lo que necesites */
+}
+

@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Aplicaciones Varias"
+  sidebar:
+    style: docked  
+    contents:
+      - section: "Apicaciones"     
+      - href: index.qmd
+        text: "Inicio"
+      - href: Encriptado/Encriptar.qmd
+        text: "Encriptado"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-title: "Contenido"
+    css: styles.css
+
+editor: visual
+

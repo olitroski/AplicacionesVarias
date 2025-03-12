@@ -1,0 +1,100 @@
+# Encriptar valores en R
+
+Algo muy simple para encriptar valores, la idea no es la seguridad sino que la anonimización de personas, pero aun asi se puede armar algo bien seguro con SSL.
+
+# Estrategia
+
+Usamos la librería `openssl` para el encriptado y `data.table` para ver como lo hacemos en un `data frame`
+
+Lo primero que necesitamos en importar las librerías y crear la **Clave de encriptación** y un **Vector de Incialización (IV)** ambos de 16 caracteres porque si usamos menos nos sale un error.
+
+Para obtener siempre el mismo resultado al cifrar/desencriptar debes especificar un **vector de inicialización (IV)** fijo (en lugar de aleatorio).
+
+En R con **openssl**, el proceso es así:
+
+-   **Clave**: obligatoria, secreta, constante.
+
+-   **IV**: opcional (pero recomendado), no necesariamente secreto, constante si deseas resultados reproducibles.
+
+Si defines una clave y un IV constante, siempre obtendrás el mismo texto cifrado para el mismo texto plano. Por ejemplo, algo así:
+
+-   Clave (ej.): `"mi_clave_secreta"`
+
+-   IV (16 bytes típicamente): `"1234567890123456"`
+
+Esto te permitirá cifrar y descifrar consistentemente.
+
+```{r error=TRUE}
+#| message: true
+#| warning: false
+
+# Cargar las librerías
+library(data.table)
+library(openssl)
+
+# Crear la Key y el IV (generamos un error deliberadamente)
+key <- charToRaw("olitroski")
+iv <-  charToRaw("miIV")
+
+# Y encriptamos un texto para ver el error.
+texto <- "Mi texto a encriptar"
+
+# Esto generará un error
+aes_ctr_encrypt(charToRaw(texto), key = key, iv = iv)
+```
+
+Como vemos que para un encriptado `aes-128` hay que usar 16 caracteres o más segun la seguridad del encriptado que se quiera.
+
+Entonces hagamos lo siguiente.
+
+1.  Importar librería
+2.  Definir clave e IV
+3.  Crear un data.table para ver resultados.
+4.  Crear funcion para cifrar
+5.  Crear función para descifrar
+6.  Aplicar el cifrado y el descifrado
+
+```{r}
+#| warning: false
+
+# ---- 1. Importamos 
+library(openssl)
+library(data.table)
+
+# ---- 2. Clave y IV fijos
+key <- charToRaw("mi_clave_fija123")
+iv <-  charToRaw("1234567890abcdef")
+
+# ---- 3. Crear data.table con entradas originales
+dt <- data.table('valores_encriptar' = c(
+    "perro",
+    "gato",
+    "18745235",
+    "Otra clave",
+    "olitroski"
+))
+
+# ver la tabla
+dt
+
+# ---- 4. Función para cifrar
+cifrar_aes <- Vectorize(function(texto) {
+    encrypted <- aes_ctr_encrypt(charToRaw(texto), key = key, iv = iv)
+    base64_encode(encrypted)
+})
+
+# ---- 5. Función para descifrar
+descifrar_aes <- Vectorize(function(texto_cifrado) {
+    decrypted <- aes_ctr_decrypt(base64_decode(texto_cifrado), key = key, iv = iv)
+    rawToChar(decrypted)
+})
+
+# ---- 6. Aplicar funciones vectorizadas
+dt[, cifrar := cifrar_aes(valores_encriptar)]
+dt[, descifrar := descifrar_aes(cifrar)]
+
+# Resultado
+dt
+```
+
+\
